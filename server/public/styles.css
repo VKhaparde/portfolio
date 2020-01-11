@@ -4,6 +4,7 @@ body{
   font-size: 1.5rem;
   color:white;
 }
-#about{
-  top: 60%;
+
+.description{
+  padding-top: 20%;
 }
