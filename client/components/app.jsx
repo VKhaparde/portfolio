@@ -8,8 +8,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-custom navbar-expand-md fixed-top navbar-trans">
-          <a className="navbar-brand" href="#page-top">Vandana Khaparde</a>
+        <nav className="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+          <a className="navbar-brand" href="#">Vandana Khaparde</a>
           <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -40,9 +40,14 @@ class App extends React.Component {
           </div>
         </nav>
         <section id="about">
-          <div className="container description bg-success">
+          <div className="container description bg-light">
             <div className="row">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab magni cum, ut necessitatibus aspernatur esse quisquam reprehenderit, eveniet natus maxime nesciunt quidem veritatis doloremque, tenetur earum incidunt mollitia quae! Vel.</p>
+              <div className="col-12">
+                <div className="col-sm-6 col-md-5">
+                  <img src="images/myimage.png" alt="image"/>
+                </div>
+                <div className="col-sm-6 col-md-7"></div>
+              </div>
             </div>
           </div>
         </section>
