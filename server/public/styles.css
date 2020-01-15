@@ -3,8 +3,14 @@ body{
   background-color: lightslategray;
   /* font-size: 1.25rem; */
   color:white;
+  overflow-x: hidden;
 }
 
 .description{
   padding-top: 20%;
+  color:black;
+}
+.imgstyle{
+  width:100%;
+  object-fit: contain;
 }

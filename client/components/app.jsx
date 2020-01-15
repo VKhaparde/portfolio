@@ -39,34 +39,45 @@ class App extends React.Component {
             </ul>
           </div>
         </nav>
+        <section id="home">
+          <div className="container-fluid w-100 bg-light">
+            <div className="row col-12"></div>
+            <img src="images/background.jpeg" alt="background"/>
+          </div>
+        </section>
         <section id="about">
-          <div className="container description bg-light">
+          <div className="container-fluid description bg-light">
             <div className="row">
-              <div className="col-12">
-                <div className="col-sm-6 col-md-5">
+              <div className="col-12 d-flex">
+                <div className="col-md-5 col-sm-6 imgstyle">
                   <img src="images/myimage.png" alt="image"/>
                 </div>
-                <div className="col-sm-6 col-md-7"></div>
+                <div className="col-md-7 col-sm-6 d-flex flex-column align-items-center pt-5">
+                  <p>Name: Vandana Khaparde</p>
+                  <p>Title: Full Stack Web Developer</p>
+                  <p>Email: vandana.khaparde@gmail.com</p>
+                  <p>Phone: 512-431-7979</p>
+                </div>
               </div>
             </div>
           </div>
         </section>
         <section id="projects">
-          <div className="container description bg-dark">
+          <div className="container-fluid description bg-dark">
             <div className="row">
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab magni cum, ut necessitatibus aspernatur esse quisquam reprehenderit, eveniet natus maxime nesciunt quidem veritatis doloremque, tenetur earum incidunt mollitia quae! Vel.</p>
             </div>
           </div>
         </section>
         <section id="skills">
-          <div className="container description bg-light text-dark">
+          <div className="container-fluid description bg-light text-dark">
             <div className="row">
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab magni cum, ut necessitatibus aspernatur esse quisquam reprehenderit, eveniet natus maxime nesciunt quidem veritatis doloremque, tenetur earum incidunt mollitia quae! Vel.</p>
             </div>
           </div>
         </section>
         <section id="tools">
-          <div className="container description bg-info">
+          <div className="container-fluid description bg-info">
             <div className="row">
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab magni cum, ut necessitatibus aspernatur esse quisquam reprehenderit, eveniet natus maxime nesciunt quidem veritatis doloremque, tenetur earum incidunt mollitia quae! Vel.</p>
             </div>
