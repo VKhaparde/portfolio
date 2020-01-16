@@ -1,16 +1,29 @@
 body{
   text-align: center;
-  background-color: lightslategray;
   /* font-size: 1.25rem; */
   color:white;
   overflow-x: hidden;
 }
 
+nav{
+  height:12%;
+}
+
 .description{
-  padding-top: 20%;
+  padding-top: 10%;
   color:black;
 }
 .imgstyle{
-  width:100%;
-  object-fit: contain;
+  height:90%;
+  width:80%;
+  border:10px solid blanchedalmond;
+  box-sizing: border-box;
+}
+.home{
+  height:800px;
+  background-color:lightsalmon;
+  padding-top: 20%;
+}
+.displayName{
+  font-size: 10vmin;
 }
