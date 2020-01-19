@@ -5,10 +5,6 @@ body{
   overflow-x: hidden;
 }
 
-/* nav{
-  height:12%;
-} */
-
 .description{
   padding-top: 10%;
   color:black;
@@ -21,7 +17,7 @@ body{
 }
 #home{
    height:800px;
-  background-color:lightsalmon;
+  background-color:black;
   padding-top: 20%;
 }
 .displayName{
@@ -35,5 +31,38 @@ color:grey;
  opacity: 0.7;
 }
 .fab, .fas{
+  color:grey;
+}
+
+.imgSize{
+  height:40%;
+  padding:3%;
+}
+.card-footer{
+  height:15%;
+}
+.card-body{
+  height:60%;
+}
+.card{
+box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.35);
+}
+.card:hover{
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.appLinks{
+  color:grey;
+  border:2px solid lightgrey;
+  padding:5%;
+  border-radius:12%;
+}
+.appLinks:hover{
+  color:grey;
+}
+
+.nav-item:hover{
   color:grey;
 }
