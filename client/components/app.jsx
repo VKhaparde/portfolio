@@ -24,9 +24,9 @@ class App extends React.Component {
               <li className="nav-item">
                 <a className="nav-link" href="#skills">Skills</a>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <a className="nav-link" href="#tools">Tools</a>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">Contact</a>
               </li>
@@ -41,7 +41,7 @@ class App extends React.Component {
           {/* </div> */}
         </div>
         <div id="about">
-          <div className="container-fluid description bg-light border">
+          <div className="container-fluid description bg-light">
             <div className="row">
               <div className="col-md-4">
                 <div className="d-flex flex-column align-items-center">
@@ -76,9 +76,9 @@ class App extends React.Component {
           </div>
         </div>
         <div id="applications">
-          <div className="container-fluid description bg-light border">
+          <div className="container-fluid description">
             <h2 className="text-center">Applications</h2>
-            <div className="card-deck my-3">
+            <div className="card-deck my-3 pb-5">
               <div className="card">
                 <div className="card-header">
                   <h3 className="">Ninja Match</h3>
@@ -152,24 +152,184 @@ class App extends React.Component {
           </div>
         </div>
         <div id="skills">
-          <div className="container-fluid description bg-light text-dark border">
-            <div className="text-center">Skills
-              <i className="fab fa-react fa-5x"></i>
+          <div className="skills container-fluid description bg-white pb-4">
+            <h2>Skills</h2>
+            <div className="row">
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-react-original colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">React.js</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-javascript-plain colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">JavaScript</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-jquery-plain-wordmark colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">jQuery</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-php-plain colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">PHP</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-mysql-plain colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">MySQL</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-bootstrap-plain colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">Bootstrap</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-html5-plain colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">HTML5</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-css3-plain colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">CSS3</h5>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        {/* <div id="tools">
-            <div className="container-fluid description bg-info border">
-              <div className="row">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab magni cum, ut necessitatibus aspernatur esse quisquam reprehenderit, eveniet natus maxime nesciunt quidem veritatis doloremque, tenetur earum incidunt mollitia quae! Vel.</p>
+        <div id="tools">
+          <div className="container-fluid description bg-white pb-4">
+            <h2>Tools</h2>
+            <div className="row">
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-github-plain skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">Github</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-webpack-plain colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">webpack</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-amazonwebservices-original colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">AWS</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="fab fa-npm skillsImg p-2 text-info"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">node</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-apache-line colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">Apache</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-babel-plain colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">Babel</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-visualstudio-plain colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">VSCode</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="fab fa-figma skillsImg text-danger p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">Figma</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-slack-plain colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">Slack</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-chrome-plain colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">ChromeDevTools</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <div className="p-3"><img src="images/meisterTask.png" alt="" className=" card-img-top meistertask" />
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-text">MeisterTask</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card bg-light text-dark m-2" >
+                  <i className="devicon-docker-plain colored skillsImg p-2"></i>
+                  <div className="card-body">
+                    <h5 className="card-text">Docker</h5>
+                  </div>
+                </div>
               </div>
             </div>
-          </div> */}
+          </div>
+        </div>
+
         <div id="contact">
-          <div className="container-fluid description bg-info">
-            <div className="row">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab magni cum, ut necessitatibus aspernatur esse quisquam reprehenderit, eveniet natus maxime nesciunt quidem veritatis doloremque, tenetur earum incidunt mollitia quae! Vel.</p>
-            </div>
+          <div className=" contact container-fluid description bg-info">
+            <h2>Contact</h2>
           </div>
         </div>
       </div>
