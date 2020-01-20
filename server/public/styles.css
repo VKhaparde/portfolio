@@ -6,7 +6,7 @@ body{
 }
 
 .description{
-  padding-top: 10%;
+  padding-top:10%;
   color:black;
 }
 .imgstyle{
@@ -28,10 +28,14 @@ body{
 border-radius: 50%;
 border:2px solid grey;
 color:grey;
- opacity: 0.7;
+ opacity: 0.5;
 }
 .fab, .fas{
   color:grey;
+}
+
+#applications{
+  background-color:lightgrey
 }
 
 .imgSize{
@@ -39,18 +43,18 @@ color:grey;
   padding:3%;
 }
 .card-footer{
-  height:15%;
+  height:12%;
 }
 .card-body{
-  height:60%;
+  height:30%;
 }
 .card{
 box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.35);
 }
 .card:hover{
-  -webkit-transform: scale(1.03);
-  -ms-transform: scale(1.03);
-  transform: scale(1.03);
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
   cursor: pointer;
 }
 .appLinks{
@@ -65,4 +69,24 @@ box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.35);
 
 .nav-item:hover{
   color:grey;
+}
+.skills , .contact{
+  /* height:100vh; */
+}
+.skillsImg{
+  font-size: 20vmin;
+  /* -webkit-transition-property: font-size;
+  -webkit-transition-duration: 1s;
+  transition-property: font-size;
+  transition-duration: 1s; */
+}
+.skillsImg:hover{
+  /* font-size: 21vmin;; */
+}
+.meistertask{
+  /* width:100px;
+  height:155px; */
+  width:50%;
+  height:50%;
+  text-align: center;
 }
