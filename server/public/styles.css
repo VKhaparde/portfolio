@@ -43,7 +43,7 @@ color: black;
 }
 
 #skills{
-  background-color:honeydew;
+  background-color:darkolivegreen;
 }
 #tools{
   background-image: url("images/circle-blues.png");
@@ -61,6 +61,7 @@ color: black;
 }
 .card{
 box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.35);
+border: none;
 }
 .card:hover{
   -webkit-transform: scale(1.02);
@@ -90,7 +91,7 @@ box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.35);
   transition-duration: 1s; */
 }
 .skillsImg:hover{
-  /* font-size: 21vmin;; */
+  /* font-size: 21vmin; */
 }
 .meistertask{
   /* width:100px;

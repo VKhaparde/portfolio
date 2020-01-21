@@ -152,7 +152,7 @@ class App extends React.Component {
           </div>
         </div>
         <div id="skills">
-          <div className="skills container-fluid description text-dark pb-4">
+          <div className="skills container-fluid description text-white pb-4">
             <h2>Skills</h2>
             <div className="row">
               <div className="col-md-3">
