@@ -10,7 +10,6 @@ body{
   color:black;
 }
 .imgstyle{
-  /* height:100%; */
   width:80%;
   border: 5px solid lightpink;
   box-sizing: border-box;
