@@ -17,7 +17,7 @@ body{
   border-radius: 15%;
 }
 #home{
-   height:800px;
+   height:100vh;
   background-image: url("images/fabric_plaid.png");
   padding-top: 20%;
   color:black;
@@ -126,10 +126,11 @@ width:60%;
 height:60%;
 }
 #contact{
+  padding-top: 15%;
   background-color: lightgrey;
   background-image: url("images/fabric_plaid.png");
+  height:800px;
 }
 .email{
   color:black;
 }
-
