@@ -18,12 +18,16 @@ body{
 #home{
    height:800px;
   background-color:black;
+  /* background-image: url("images/diagmonds_@2X.png"); */
   padding-top: 20%;
+  color:white;
 }
 .displayName{
   font-size: 10vmin;
 }
-
+#about{
+  background-image: url("images/sakura.png");
+}
 .allLinks{
 border-radius: 50%;
 border:2px solid grey;
@@ -31,11 +35,19 @@ color:grey;
  opacity: 0.5;
 }
 .fab, .fas{
-  color:grey;
+color: black;
 }
 
 #applications{
-  background-color:lightgrey
+  background-color:lightgrey;
+  /* background-image:url("images/retina_wood_@2X.png") */
+}
+
+#skills{
+  background-color:honeydew;
+}
+#tools{
+  background-image: url("images/circle-blues.png");
 }
 
 .imgSize{
@@ -89,4 +101,11 @@ box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.35);
   width:50%;
   height:50%;
   text-align: center;
+}
+
+#contact{
+  background-color: lightgrey;
+}
+.email{
+  color:black;
 }

@@ -41,7 +41,7 @@ class App extends React.Component {
           {/* </div> */}
         </div>
         <div id="about">
-          <div className="container-fluid description bg-light">
+          <div className="container-fluid description">
             <div className="row">
               <div className="col-md-4">
                 <div className="d-flex flex-column align-items-center">
@@ -78,7 +78,7 @@ class App extends React.Component {
         <div id="applications">
           <div className="container-fluid description">
             <h2 className="text-center">Applications</h2>
-            <div className="card-deck my-3 pb-5">
+            <div className="card-deck mt-3 pb-5">
               <div className="card">
                 <div className="card-header">
                   <h3 className="">Ninja Match</h3>
@@ -152,7 +152,7 @@ class App extends React.Component {
           </div>
         </div>
         <div id="skills">
-          <div className="skills container-fluid description bg-white pb-4">
+          <div className="skills container-fluid description text-dark pb-4">
             <h2>Skills</h2>
             <div className="row">
               <div className="col-md-3">
@@ -223,7 +223,7 @@ class App extends React.Component {
           </div>
         </div>
         <div id="tools">
-          <div className="container-fluid description bg-white pb-4">
+          <div className="container-fluid description text-white pb-4">
             <h2>Tools</h2>
             <div className="row">
               <div className="col-md-3">
@@ -328,8 +328,18 @@ class App extends React.Component {
         </div>
 
         <div id="contact">
-          <div className=" contact container-fluid description bg-info">
-            <h2>Contact</h2>
+          <div className="contact container-fluid description">
+            <h3>Vandana Khaparde</h3>
+            <div className="d-flex flex-column">
+              <p><i className="fas fa-map-marker-alt"></i> Irvine CA</p>
+              <p><i className="fas fa-phone"></i> 512-431-7979</p>
+              <a href="mailto:vandana.khaparde@gmail.com" className="email"><i className="fas fa-envelope"></i>  vandana.khaparde@gmail.com</a>
+            </div>
+            <div className="d-flex justify-content-center ">
+              <a className="m-2 allLinks" href="https://github.com/VKhaparde"><i className="fab fa-github px-2 py-2" ></i></a>
+              <a className="m-2 allLinks" href="https://linkedin.com/in/VKhaparde"><i className="fab fa-linkedin px-2 py-2"></i></a>
+              <a className="m-2 allLinks" href=""><i className="fas fa-file px-2 py-2"></i></a>
+            </div>
           </div>
         </div>
       </div>
