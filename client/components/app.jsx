@@ -34,11 +34,11 @@ class App extends React.Component {
           </div>
         </nav>
         <div id="home">
-          {/* <div className="home"> */}
-          <p className="displayName">Vandana Khaparde</p>
-          <p>Full Stack Web Developer</p>
-          {/* <img src="images/background.jpeg" alt="background" className="w-100"/> */}
-          {/* </div> */}
+          <div className="">
+            <p className="displayName">Vandana Khaparde</p>
+            <p>Full Stack Web Developer</p>
+            {/* <img src="images/background.jpeg" alt="background" className="w-100"/> */}
+          </div>
         </div>
         <div id="about">
           <div className="container-fluid description">
@@ -49,9 +49,9 @@ class App extends React.Component {
                   <div className="d-flex justify-content-center ">
                     <a className="m-2 allLinks" href="https://github.com/VKhaparde"><i className="fab fa-github px-2 py-2" ></i></a>
                     <a className="m-2 allLinks" href="https://linkedin.com/in/VKhaparde"><i className="fab fa-linkedin px-2 py-2"></i></a>
-                    <a className="m-2 allLinks" href=""><i className="fas fa-phone-square-alt px-2 py-2"></i></a>
+                    {/* <a className="m-2 allLinks" href=""><i className="fas fa-phone-square-alt px-2 py-2"></i></a> */}
                     <a className="m-2 allLinks" href="mailto:vandana.khaparde@gmail.com"><i className="fas fa-envelope-square px-2 py-2"></i></a>
-                    <a className="m-2 allLinks" href=""><i className="fas fa-file px-2 py-2"></i></a>
+                    <a className="m-2 allLinks" href="images/Vandana_Resume.pdf"><i className="fas fa-file px-2 py-2"></i></a>
                   </div>
                 </div>
               </div>
@@ -331,14 +331,14 @@ class App extends React.Component {
           <div className="contact container-fluid description">
             <h3>Vandana Khaparde</h3>
             <div className="d-flex flex-column">
-              <p><i className="fas fa-map-marker-alt"></i> Irvine CA</p>
+              <p><i className="fas fa-map-marker-alt"></i> Irvine, CA</p>
               <p><i className="fas fa-phone"></i> 512-431-7979</p>
               <a href="mailto:vandana.khaparde@gmail.com" className="email"><i className="fas fa-envelope"></i>  vandana.khaparde@gmail.com</a>
             </div>
             <div className="d-flex justify-content-center ">
               <a className="m-2 allLinks" href="https://github.com/VKhaparde"><i className="fab fa-github px-2 py-2" ></i></a>
               <a className="m-2 allLinks" href="https://linkedin.com/in/VKhaparde"><i className="fab fa-linkedin px-2 py-2"></i></a>
-              <a className="m-2 allLinks" href=""><i className="fas fa-file px-2 py-2"></i></a>
+              <a className="m-2 allLinks" href="images/Vandana_Resume.pdf"><i className="fas fa-file px-2 py-2"></i></a>
             </div>
           </div>
         </div>
