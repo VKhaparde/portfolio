@@ -6,7 +6,7 @@ body{
 }
 
 .description{
-  padding-top:10%;
+  padding-top:5%;
   color:black;
 }
 .imgstyle{
@@ -27,6 +27,7 @@ body{
 }
 #about{
   background-image: url("images/sakura.png");
+  padding-bottom: 12%;
 }
 .allLinks{
 border-radius: 50%;

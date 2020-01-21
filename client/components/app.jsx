@@ -328,7 +328,7 @@ class App extends React.Component {
         </div>
 
         <div id="contact">
-          <div className="contact container-fluid description">
+          <div className="container-fluid description">
             <h3>Vandana Khaparde</h3>
             <div className="d-flex flex-column">
               <p><i className="fas fa-map-marker-alt"></i> Irvine, CA</p>
@@ -336,7 +336,7 @@ class App extends React.Component {
               <a href="mailto:vandana.khaparde@gmail.com" className="email"><i className="fas fa-envelope"></i>  vandana.khaparde@gmail.com</a>
             </div>
             <div className="d-flex justify-content-center ">
-              <a className="m-2 allLinks" href="https://github.com/VKhaparde"><i className="fab fa-github px-2 py-2" ></i></a>
+              <a className="m-2 allLinks" href="https://github.com/VKhaparde"><i className="fab fa-github px-2 py-2"></i></a>
               <a className="m-2 allLinks" href="https://linkedin.com/in/VKhaparde"><i className="fab fa-linkedin px-2 py-2"></i></a>
               <a className="m-2 allLinks" href="images/Vandana_Resume.pdf"><i className="fas fa-file px-2 py-2"></i></a>
             </div>
