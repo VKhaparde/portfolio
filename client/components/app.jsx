@@ -37,16 +37,15 @@ class App extends React.Component {
           <div className="">
             <p className="displayName">Vandana Khaparde</p>
             <p>Full Stack Web Developer</p>
-            {/* <img src="images/background.jpeg" alt="background" className="w-100"/> */}
           </div>
         </div>
         <div id="about">
           <div className="container-fluid description">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-4 mt-5 pt-3">
                 <div className="d-flex flex-column align-items-center">
-                  <img src="images/myimage.png" alt="image" className="imgstyle" />
-                  <div className="d-flex justify-content-center ">
+                  <img src="images/van.jpg" alt="image" className="imgstyle" />
+                  <div className="d-flex justify-content-center">
                     <a className="m-2 allLinks" href="https://github.com/VKhaparde"><i className="fab fa-github px-2 py-2" ></i></a>
                     <a className="m-2 allLinks" href="https://linkedin.com/in/VKhaparde"><i className="fab fa-linkedin px-2 py-2"></i></a>
                     {/* <a className="m-2 allLinks" href=""><i className="fas fa-phone-square-alt px-2 py-2"></i></a> */}
@@ -79,9 +78,9 @@ class App extends React.Component {
           <div className="container-fluid description">
             <h2 className="text-center">Applications</h2>
             <div className="card-deck mt-3 pb-5">
-              <div className="card">
+              <div className="card projects">
                 <div className="card-header">
-                  <h3 className="">Ninja Match</h3>
+                  <a href="https://ninja-match.vandanakhaparde.com"><h3 className="text-dark">Ninja Match</h3></a>
                 </div>
                 <img className="card-img-top imgSize" src="images/lego-ninja.jpeg" alt="Card image cap" />
                 <div className="card-body">
@@ -101,9 +100,9 @@ class App extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="card">
+              <div className="card projects">
                 <div className="card-header">
-                  <h3 className="">Kitchen Shop</h3>
+                  <a href="https://kitchen-shop.vandanakhaparde.com"><h3 className="text-dark">Kitchen Shop</h3></a>
                 </div>
                 <img className="card-img-top imgSize" src="images/kitchen.png" alt="Card image cap" />
                 <div className="card-body">
@@ -124,9 +123,9 @@ class App extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="card">
+              <div className="card projects">
                 <div className="card-header">
-                  <h3 className="">Local Sports</h3>
+                  <a href="https://local-sports.vandanakhaparde.com"><h3 className="text-dark">Local Sports</h3></a>
                 </div>
                 <img className="card-img-top imgSize" src="images/local-sports.jpg" alt="Card image cap" />
                 <div className="card-body">
@@ -156,7 +155,7 @@ class App extends React.Component {
             <h2>Skills</h2>
             <div className="row">
               <div className="col-md-3">
-                <div className="card bg-light text-dark m-2" >
+                <div className="card tech bg-light text-dark m-2" >
                   <i className="devicon-react-original colored skillsImg p-2"></i>
                   <div className="card-body">
                     <h5 className="card-text">React.js</h5>
@@ -164,7 +163,7 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="card bg-light text-dark m-2" >
+                <div className="card tech bg-light text-dark m-2" >
                   <i className="devicon-javascript-plain colored skillsImg p-2"></i>
                   <div className="card-body">
                     <h5 className="card-text">JavaScript</h5>
@@ -332,7 +331,7 @@ class App extends React.Component {
             <h3>Vandana Khaparde</h3>
             <div className="d-flex flex-column">
               <p><i className="fas fa-map-marker-alt"></i> Irvine, CA</p>
-              <p><i className="fas fa-phone"></i> 512-431-7979</p>
+              <p><i className="fas fa-phone-alt"></i> 512-431-7979</p>
               <a href="mailto:vandana.khaparde@gmail.com" className="email"><i className="fas fa-envelope"></i>  vandana.khaparde@gmail.com</a>
             </div>
             <div className="d-flex justify-content-center ">

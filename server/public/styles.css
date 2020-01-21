@@ -10,14 +10,14 @@ body{
   color:black;
 }
 .imgstyle{
-  height:90%;
+  /* height:100%; */
   width:80%;
-  border:10px solid blanchedalmond;
+  border: 5px solid lightpink;
   box-sizing: border-box;
+  border-radius: 15%;
 }
 #home{
    height:800px;
-  background-color:black;
   background-image: url("images/fabric_plaid.png");
   padding-top: 20%;
   color:black;
@@ -26,6 +26,7 @@ body{
   font-size: 10vmin;
 }
 #about{
+  padding-top:5%;
   background-image: url("images/sakura.png");
   padding-bottom: 12%;
 }
@@ -34,17 +35,19 @@ border-radius: 50%;
 border:3px solid grey;
 color:grey;
 }
-.fab, .fas{
+.fab, .fas, .far{
 color: black;
 }
 
 #applications{
   background-color:lightgrey;
-  /* background-image:url("images/retina_wood_@2X.png") */
 }
 
 #skills{
-  background-color:darkolivegreen;
+
+background: -webkit-radial-gradient(rgb(22, 237, 226), rgb(20, 72, 90));
+background: radial-gradient(rgb(22, 237, 226), rgb(20, 72, 90));
+
 }
 #tools{
   background-image: url("images/circle-blues.png");
@@ -60,7 +63,7 @@ color: black;
 .card-body{
   height:30%;
 }
-.card{
+/* .card{
 box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.35);
 border: none;
 }
@@ -69,7 +72,18 @@ border: none;
   -ms-transform: scale(1.02);
   transform: scale(1.02);
   cursor: pointer;
+} */
+.projects{
+box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.35);
+border: none;
 }
+.projects:hover{
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
 .appLinks{
   color:grey;
   border:2px solid lightgrey;
@@ -85,23 +99,32 @@ border: none;
 }
 
 .skillsImg{
-  font-size: 20vmin;
-  /* -webkit-transition-property: font-size;
+font-size: 20vmin;
+  -webkit-transition-property: font-size;
   -webkit-transition-duration: 1s;
   transition-property: font-size;
-  transition-duration: 1s; */
+  transition-duration: 1s;
 }
 .skillsImg:hover{
-  /* font-size: 21vmin; */
+  font-size: 22vmin;
+
 }
+
 .meistertask{
   /* width:100px;
   height:155px; */
   width:50%;
   height:50%;
   text-align: center;
+  -webkit-transition-property: height,width;
+  -webkit-transition-duration: 1s;
+  transition-property: height,width;
+  transition-duration: 1s;
 }
-
+.meistertask:hover{
+width:60%;
+height:60%;
+}
 #contact{
   background-color: lightgrey;
   background-image: url("images/fabric_plaid.png");
