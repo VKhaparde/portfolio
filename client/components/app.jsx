@@ -78,7 +78,7 @@ class App extends React.Component {
         </div>
         <div id="applications">
           <div className="container-fluid description">
-            <h2 className="text-center">Applications</h2>
+            <h2 className="text-center pt-5">Applications</h2>
             <div className="card-deck mt-3 pb-5">
               <div className="card projects">
                 <div className="card-header">
@@ -154,7 +154,7 @@ class App extends React.Component {
         </div>
         <div id="skills">
           <div className="skills container-fluid description text-white pb-4">
-            <h2>Skills</h2>
+            <h2 className="pt-5">Skills</h2>
             <div className="row">
               <div className="col-md-3">
                 <div className="card tech bg-light text-dark m-2" >
@@ -225,7 +225,7 @@ class App extends React.Component {
         </div>
         <div id="tools">
           <div className="container-fluid description text-white pb-4">
-            <h2>Tools</h2>
+            <h2 className="pt-5">Tools</h2>
             <div className="row">
               <div className="col-md-3">
                 <div className="card bg-light text-dark m-2" >
