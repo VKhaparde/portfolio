@@ -56,7 +56,7 @@ class App extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-md-8 d-flex flex-column justify-content-center">
+              <div className="col-md-8 d-flex flex-column justify-content-start">
                 <h3>About Me</h3>
                 <p>I&apos;m Vandana Khaparde. I am a developer that has a passion for coding, math and technology.</p>
                 <p>After my graduation in Computer Science, I&apos;ve worked for Infosys as a Software Engineer for few years
