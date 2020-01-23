@@ -89,7 +89,8 @@ class App extends React.Component {
                   <a href="https://ninja-match.vandanakhaparde.com" target="_blank" rel="noopener noreferrer">
                     <h3 className="text-dark">Ninja Match</h3></a>
                 </div>
-                <img className="card-img-top imgSize" src="images/lego-ninja.jpeg" alt="Card image cap" />
+                <a href="https://ninja-match.vandanakhaparde.com" target="_blank" rel="noopener noreferrer">
+                  <img className="card-img-top imgSize" src="images/lego-ninja.jpeg" alt="Card image cap" /></a>
                 <div className="card-body">
                   {/* <h5 className="card-title">Card title</h5> */}
                   <p className="card-text">
@@ -113,7 +114,8 @@ class App extends React.Component {
                   <a href="https://kitchen-shop.vandanakhaparde.com" target="_blank" rel="noopener noreferrer">
                     <h3 className="text-dark">Kitchen Shop</h3></a>
                 </div>
-                <img className="card-img-top imgSize" src="images/kitchen.png" alt="Card image cap" />
+                <a href="https://kitchen-shop.vandanakhaparde.com" target="_blank" rel="noopener noreferrer">
+                  <img className="card-img-top imgSize" src="images/kitchen.png" alt="Card image cap" /> </a>
                 <div className="card-body">
                   {/* <h5 className="card-title">Card title</h5> */}
                   <p className="card-text">
@@ -137,7 +139,8 @@ class App extends React.Component {
                   <a href="https://local-sports.vandanakhaparde.com" target="_blank" rel="noopener noreferrer">
                     <h3 className="text-dark">Local Sports</h3></a>
                 </div>
-                <img className="card-img-top imgSize" src="images/local-sports.jpg" alt="Card image cap" />
+                <a href="https://local-sports.vandanakhaparde.com" target="_blank" rel="noopener noreferrer">
+                  <img className="card-img-top imgSize" src="images/local-sports.jpg" alt="Card image cap"/> </a>
                 <div className="card-body">
                   {/* <h5 className="card-title">Card title</h5> */}
                   <p className="card-text">
