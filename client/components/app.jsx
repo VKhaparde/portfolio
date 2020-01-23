@@ -48,15 +48,19 @@ class App extends React.Component {
                 <div className="d-flex flex-column align-items-center">
                   <img src="images/van.jpg" alt="image" className="imgstyle" />
                   <div className="d-flex justify-content-center">
-                    <a className="m-2 allLinks" href="https://github.com/VKhaparde"><i className="fab fa-github px-2 py-2" ></i></a>
-                    <a className="m-2 allLinks" href="https://linkedin.com/in/VKhaparde"><i className="fab fa-linkedin px-2 py-2"></i></a>
+                    <a className="m-2 allLinks" href="https://github.com/VKhaparde" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-github px-2 py-2" ></i></a>
+                    <a className="m-2 allLinks" href="https://linkedin.com/in/VKhaparde" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-linkedin px-2 py-2"></i></a>
                     {/* <a className="m-2 allLinks" href=""><i className="fas fa-phone-square-alt px-2 py-2"></i></a> */}
-                    <a className="m-2 allLinks" href="mailto:vandana.khaparde@gmail.com"><i className="fas fa-envelope-square px-2 py-2"></i></a>
-                    <a className="m-2 allLinks" href="images/Vandana_Resume.pdf"><i className="fas fa-file px-2 py-2"></i></a>
+                    <a className="m-2 allLinks" href="mailto:vandana.khaparde@gmail.com" target="_blank" rel="noopener noreferrer">
+                      <i className="fas fa-envelope-square px-2 py-2"></i></a>
+                    <a className="m-2 allLinks" href="images/Vandana_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                      <i className="fas fa-file px-2 py-2"></i></a>
                   </div>
                 </div>
               </div>
-              <div className="col-md-8 d-flex flex-column justify-content-start">
+              <div className="col-md-8 d-flex flex-column justify-content-start px-4">
                 <h3>About Me</h3>
                 <p>I&apos;m Vandana Khaparde. I am a developer that has a passion for coding, math and technology.</p>
                 <p>After my graduation in Computer Science, I&apos;ve worked for Infosys as a Software Engineer for few years
@@ -82,29 +86,32 @@ class App extends React.Component {
             <div className="card-deck mt-3 pb-5">
               <div className="card projects">
                 <div className="card-header">
-                  <a href="https://ninja-match.vandanakhaparde.com"><h3 className="text-dark">Ninja Match</h3></a>
+                  <a href="https://ninja-match.vandanakhaparde.com" target="_blank" rel="noopener noreferrer">
+                    <h3 className="text-dark">Ninja Match</h3></a>
                 </div>
                 <img className="card-img-top imgSize" src="images/lego-ninja.jpeg" alt="Card image cap" />
                 <div className="card-body">
+                  {/* <h5 className="card-title">Card title</h5> */}
                   <p className="card-text">
                     Ninja Match is a memory match game.User gets 16 attempts to match the ninja and win the game.
                   </p>
                   <p>Developed using javaScript, jQuery, HTML and CSS.</p>
                 </div>
                 <div className="card-footer">
-                  <div className="p-2">
-                    <a className="m-2 appLinks" href="https://github.com/VKhaparde/ninja-match">
-                      <i className="fab fa-github"></i> Github
+                  <div className="d-flex justify-content-center">
+                    <a className="m-2 appLinks" href="https://github.com/VKhaparde/ninja-match" target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-github"></i>Github
                     </a>
-                    <a className="m-2 appLinks" href="https://ninja-match.vandanakhaparde.com">
-                      <i className="far fa-window-restore"></i> Live
+                    <a className="m-2 appLinks" href="https://ninja-match.vandanakhaparde.com" target="_blank" rel="noopener noreferrer">
+                      <i className="far fa-window-restore"></i>Live
                     </a>
                   </div>
                 </div>
               </div>
               <div className="card projects">
                 <div className="card-header">
-                  <a href="https://kitchen-shop.vandanakhaparde.com"><h3 className="text-dark">Kitchen Shop</h3></a>
+                  <a href="https://kitchen-shop.vandanakhaparde.com" target="_blank" rel="noopener noreferrer">
+                    <h3 className="text-dark">Kitchen Shop</h3></a>
                 </div>
                 <img className="card-img-top imgSize" src="images/kitchen.png" alt="Card image cap" />
                 <div className="card-body">
@@ -115,11 +122,11 @@ class App extends React.Component {
                   <p>Developed using React.js,PHP,MySql, HTML and CSS.</p>
                 </div>
                 <div className="card-footer">
-                  <div className="p-2">
-                    <a className="m-2 appLinks" href="https://github.com/VKhaparde/kitchen-shop">
+                  <div className="d-flex justify-content-center">
+                    <a className="m-2 appLinks" href="https://github.com/VKhaparde/kitchen-shop" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-github"></i> Github
                     </a>
-                    <a className="m-2 appLinks" href="https://kitchen-shop.vandanakhaparde.com">
+                    <a className="m-2 appLinks" href="https://kitchen-shop.vandanakhaparde.com" target="_blank" rel="noopener noreferrer">
                       <i className="far fa-window-restore"></i> Live
                     </a>
                   </div>
@@ -127,7 +134,8 @@ class App extends React.Component {
               </div>
               <div className="card projects">
                 <div className="card-header">
-                  <a href="https://local-sports.vandanakhaparde.com"><h3 className="text-dark">Local Sports</h3></a>
+                  <a href="https://local-sports.vandanakhaparde.com" target="_blank" rel="noopener noreferrer">
+                    <h3 className="text-dark">Local Sports</h3></a>
                 </div>
                 <img className="card-img-top imgSize" src="images/local-sports.jpg" alt="Card image cap" />
                 <div className="card-body">
@@ -138,11 +146,11 @@ class App extends React.Component {
                   <p>Developed using React.js, PHP, MySql, HTML and CSS.</p>
                 </div>
                 <div className="card-footer">
-                  <div className="p-2">
-                    <a className="m-2 appLinks" href="https://github.com/VKhaparde/local-sports">
+                  <div className="d-flex justify-content-center">
+                    <a className="m-2 appLinks" href="https://github.com/VKhaparde/local-sports" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-github"></i> Github
                     </a>
-                    <a className="m-2 appLinks" href="https://local-sports.vandanakhaparde.com">
+                    <a className="m-2 appLinks" href="https://local-sports.vandanakhaparde.com" target="_blank" rel="noopener noreferrer">
                       <i className="far fa-window-restore"></i> Live
                     </a>
                   </div>
@@ -156,67 +164,67 @@ class App extends React.Component {
           <div className="skills container-fluid description text-white pb-4">
             <h2 className="pt-5">Skills</h2>
             <div className="row">
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card tech bg-light text-dark m-2" >
                   <i className="devicon-react-original colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">React.js</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">React.js</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card tech bg-light text-dark m-2" >
                   <i className="devicon-javascript-plain colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">JavaScript</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">JavaScript</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-jquery-plain-wordmark colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">jQuery</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">jQuery</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-php-plain colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">PHP</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">PHP</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-mysql-plain colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">MySQL</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">MySQL</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-bootstrap-plain colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">Bootstrap</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">Bootstrap</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-html5-plain colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">HTML5</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">HTML5</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-css3-plain colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">CSS3</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">CSS3</h6>
                   </div>
                 </div>
               </div>
@@ -227,100 +235,101 @@ class App extends React.Component {
           <div className="container-fluid description text-white pb-4">
             <h2 className="pt-5">Tools</h2>
             <div className="row">
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-github-plain skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">Github</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">Github</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-webpack-plain colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">webpack</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">webpack</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-amazonwebservices-original colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">AWS</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">AWS</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="fab fa-npm skillsImg p-2 text-info"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">node</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">node</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-apache-line colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">Apache</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">Apache</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-babel-plain colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">Babel</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">Babel</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-visualstudio-plain colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">VSCode</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">VSCode</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="fab fa-figma skillsImg text-danger p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">Figma</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">Figma</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-slack-plain colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">Slack</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">Slack</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-chrome-plain colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">ChromeDevTools</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">Chrome DevTools</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <div className="p-3"><img src="images/meisterTask.png" alt="" className=" card-img-top meistertask" />
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-text">MeisterTask</h5>
+                  <i className="fas fa-check-circle skillsImg p-2 text-primary"></i>
+                  {/* <div className="p-3"><img src="images/meisterTask.png" alt="" className=" card-img-top meistertask" />
+                  </div> */}
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">MeisterTask</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
                   <i className="devicon-docker-plain colored skillsImg p-2"></i>
-                  <div className="card-body">
-                    <h5 className="card-text">Docker</h5>
+                  <div className="card-body d-flex justify-content-center">
+                    <h6 className="card-text">Docker</h6>
                   </div>
                 </div>
               </div>
@@ -334,12 +343,16 @@ class App extends React.Component {
             <div className="d-flex flex-column">
               <p><i className="fas fa-map-marker-alt"></i> Irvine, CA</p>
               <p><i className="fas fa-phone-alt"></i> 512-431-7979</p>
-              <a href="mailto:vandana.khaparde@gmail.com" className="email"><i className="fas fa-envelope"></i>  vandana.khaparde@gmail.com</a>
+              <a href="mailto:vandana.khaparde@gmail.com" className="email" target="_blank" rel="noopener noreferrer">
+                <i className="fas fa-envelope"></i>  vandana.khaparde@gmail.com</a>
             </div>
             <div className="d-flex justify-content-center ">
-              <a className="m-2 allLinks" href="https://github.com/VKhaparde"><i className="fab fa-github px-2 py-2"></i></a>
-              <a className="m-2 allLinks" href="https://linkedin.com/in/VKhaparde"><i className="fab fa-linkedin px-2 py-2"></i></a>
-              <a className="m-2 allLinks" href="images/Vandana_Resume.pdf"><i className="fas fa-file px-2 py-2"></i></a>
+              <a className="m-2 allLinks" href="https://github.com/VKhaparde" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-github px-2 py-2"></i></a>
+              <a className="m-2 allLinks" href="https://linkedin.com/in/VKhaparde" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-linkedin px-2 py-2"></i></a>
+              <a className="m-2 allLinks" href="images/Vandana_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <i className="fas fa-file px-2 py-2"></i></a>
             </div>
           </div>
         </div>
