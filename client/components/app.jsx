@@ -52,7 +52,8 @@ class App extends React.Component {
                       <i className="fab fa-github px-2 py-2" ></i></a>
                     <a className="m-2 allLinks" href="https://linkedin.com/in/VKhaparde" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-linkedin px-2 py-2"></i></a>
-                    {/* <a className="m-2 allLinks" href=""><i className="fas fa-phone-square-alt px-2 py-2"></i></a> */}
+                    <a className="m-2 allLinks" href="tel:+1-512-431-7979" target="_blank" rel="noopener noreferrer">
+                      <i className="fas fa-phone-square-alt px-2 py-2"></i></a>
                     <a className="m-2 allLinks" href="mailto:vandana.khaparde@gmail.com" target="_blank" rel="noopener noreferrer">
                       <i className="fas fa-envelope-square px-2 py-2"></i></a>
                     <a className="m-2 allLinks" href="images/Vandana_Resume.pdf" target="_blank" rel="noopener noreferrer">
@@ -345,7 +346,7 @@ class App extends React.Component {
             <h3>Vandana Khaparde</h3>
             <div className="d-flex flex-column">
               <div className="p-1"><i className="fas fa-map-marker-alt"></i> Irvine, CA</div>
-              <div className="p-1"><a href="callto:512-431-7979" className="email">
+              <div className="p-1"><a href="tel:+1-512-431-7979" className="email">
                 <i className="fas fa-phone-alt"></i> 512-431-7979 </a>
               {/* <p><i className="fas fa-phone-alt"></i> 512-431-7979</p> */}
               </div>
