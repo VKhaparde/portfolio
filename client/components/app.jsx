@@ -344,10 +344,13 @@ class App extends React.Component {
           <div className="container-fluid description">
             <h3>Vandana Khaparde</h3>
             <div className="d-flex flex-column">
-              <p><i className="fas fa-map-marker-alt"></i> Irvine, CA</p>
-              <p><i className="fas fa-phone-alt"></i> 512-431-7979</p>
-              <a href="mailto:vandana.khaparde@gmail.com" className="email" target="_blank" rel="noopener noreferrer">
-                <i className="fas fa-envelope"></i>  vandana.khaparde@gmail.com</a>
+              <div className="p-1"><i className="fas fa-map-marker-alt"></i> Irvine, CA</div>
+              <div className="p-1"><a href="callto:512-431-7979" className="email">
+                <i className="fas fa-phone-alt"></i> 512-431-7979 </a>
+              {/* <p><i className="fas fa-phone-alt"></i> 512-431-7979</p> */}
+              </div>
+              <div className="p-1"><a href="mailto:vandana.khaparde@gmail.com" className="email" target="_blank" rel="noopener noreferrer">
+                <i className="fas fa-envelope"></i>  vandana.khaparde@gmail.com</a> </div>
             </div>
             <div className="d-flex justify-content-center ">
               <a className="m-2 allLinks" href="https://github.com/VKhaparde" target="_blank" rel="noopener noreferrer">
