@@ -12,7 +12,7 @@ body{
 
 .imgstyle{
   width:80%;
-  border: 5px solid lightpink;
+  border: 5px solid #f5aeae;
   box-sizing: border-box;
   border-radius: 15%;
 }
@@ -39,7 +39,9 @@ color:grey;
 .fab, .fas, .far{
 color: black;
 }
-
+.fab:hover, .fas:hover, .far:hover{
+  color:white;
+}
 #applications{
   background-color:lightgrey;
 }
@@ -129,9 +131,10 @@ width:60%;
 height:60%;
 }
 #contact{
-  padding-top: 15%;
+  padding-top: 10%;
   background-image: url("images/fabric_plaid.png");
   /* height:800px; */
+  padding-bottom: 5%;
 }
 .email{
   color:black;
@@ -139,5 +142,9 @@ height:60%;
 
 .myName{
   font-family: cursive;
-  font-size: 5vmin;
+  font-size: 4vmin;
+}
+
+.allLinks:hover{
+  background-color:#f5aeae;
 }
