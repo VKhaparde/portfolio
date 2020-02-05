@@ -66,13 +66,13 @@ class App extends React.Component {
                 <p>I&apos;m Vandana Khaparde. I am a developer that has a passion for coding, math and technology.</p>
                 <p>After my graduation in Computer Science, I&apos;ve worked for Infosys as a Software Engineer for few years
                 in India. I have worked as a developer in a team for developing a banking application and also worked
-                as part of testing team for few years.I moved to United States in 2010. Then I had taken a break for some years to take care of my kids and family.
+                as part of testing team for few years.I moved to United States in 2010. Then I took a break for some years to take care of my kids and family.
                 My passion for coding was still alive and I was learning some courses like Selenium, Appium
                     online.</p>
                 <p>
                   When I decided to get back to work, I joined Learning Fuze, where I learned languages
                   like JavaScript (ES5 & ES6), React, jQuery, Node.js, PHP, HTML, and CSS. I also became
-                  familiar with tools like Git/Github, Postman, npm, and Webpack. Lastly, I participated in team-based
+                  familiar with tools like Git/GitHub, Postman, npm, and Webpack. Lastly, I participated in team-based
                   hackathons, as well as solo projects, to build full-stack web applications.
                   Experiencing all of this has solidified my knowledge of web development,
                  and has helped me grow more.
