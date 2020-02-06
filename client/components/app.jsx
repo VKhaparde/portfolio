@@ -44,7 +44,7 @@ class App extends React.Component {
         <div id="about">
           <div className="container-fluid description">
             <div className="row">
-              <div className="col-md-4 mt-5 pt-3">
+              <div className="col-md-5 mt-5 pt-5">
                 <div className="d-flex flex-column align-items-center">
                   <img src="images/van.jpg" alt="image" className="imgstyle" />
                   <div className="d-flex justify-content-center">
@@ -61,9 +61,9 @@ class App extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-md-8 d-flex flex-column justify-content-start px-4">
+              <div className="col-md-7 d-flex flex-column justify-content-start px-4">
                 <h3>About Me</h3>
-                <p>I&apos;m Vandana Khaparde. I am a developer that has a passion for coding, math and technology.</p>
+                <p>I&apos;m Vandana Khaparde. I am a developer that has a passion for coding, mathematics and technology.</p>
                 <p>After my graduation in Computer Science, I&apos;ve worked for Infosys as a Software Engineer for few years
                 in India. I have worked as a developer in a team for developing a banking application and also worked
                 as part of testing team for few years.I moved to United States in 2010. Then I took a break for some years to take care of my kids and family.
