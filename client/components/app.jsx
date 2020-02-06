@@ -44,7 +44,7 @@ class App extends React.Component {
         <div id="about">
           <div className="container-fluid description">
             <div className="row">
-              <div className="col-md-5 mt-5 pt-5">
+              <div className="col-md-5 mt-5 pt-4">
                 <div className="d-flex flex-column align-items-center">
                   <img src="images/van.jpg" alt="image" className="imgstyle" />
                   <div className="d-flex justify-content-center">

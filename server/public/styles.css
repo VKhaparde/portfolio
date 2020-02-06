@@ -145,6 +145,6 @@ height:60%;
   font-size: 4vmin;
 }
 
-.allLinks:hover{
+.allLinks:hover , .appLinks:hover{
   background-color:#f5aeae;
 }
