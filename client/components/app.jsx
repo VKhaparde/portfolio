@@ -63,7 +63,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-7 d-flex flex-column justify-content-start px-4">
                 <h3>About Me</h3>
-                <p>I&apos;m Vandana Khaparde. I am a web developer that has a passion for coding, mathematics and technology.</p>
+                <p>I&apos;m Vandana Khaparde. I am a web developer who has a passion for coding, mathematics and technology.</p>
                 <p>After my graduation in Computer Science, I&apos;ve worked for Infosys as a Software Engineer for few years
                 in India. I have worked as a developer in a team for developing a banking application and also worked
                 as part of testing team for few years.I moved to United States in 2010. Then I took a break for some years to take care of my kids and family.
