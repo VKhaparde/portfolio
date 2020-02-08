@@ -7,7 +7,7 @@ class App extends React.Component {
       <div>
         <nav className="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
           <div className="navbar-header">
-            <a className="navbar-brand myName" href="#">Vandana Khaparde</a>
+            <a className="navbar-brand myName" href="#">VK</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
