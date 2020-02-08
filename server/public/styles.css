@@ -148,3 +148,25 @@ height:60%;
 .allLinks:hover , .appLinks:hover{
   background-color:#f5aeae;
 }
+@media only screen and (min-width : 480px) and (max-width : 765px) {
+  body{
+    overflow-x: hidden;
+  }
+  #home{
+   height:100vh;
+  background-image: url("images/fabric_plaid.png");
+  padding-top: 60%;
+  color:black;
+}
+}
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+  body{
+    overflow-x: hidden;
+  }
+   #home{
+   height:100vh;
+  background-image: url("images/fabric_plaid.png");
+  color:black;
+  padding-top: 60%;
+}
+}
