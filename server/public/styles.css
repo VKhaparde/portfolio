@@ -19,13 +19,14 @@ body{
 #home{
    height:100vh;
   background-image: url("images/fabric_plaid.png");
-  padding-top: 20%;
+  padding-top: 18%;
   color:black;
 }
 
 .displayName{
-  font-size: 12vmin;
-  text-shadow: 4px 6px 4px rgba(165, 130, 130, 0.25);
+  font-size: 15vmin;
+  text-shadow: 4px 4px 4px rgba(102, 51, 51, 0.25);
+  /* color:rgb(63, 16, 20); */
 }
 #about{
   padding-top:5%;
@@ -149,16 +150,10 @@ height:60%;
 .allLinks:hover , .appLinks:hover{
   background-color:#f5aeae;
 }
-/* .designation{
-  color: rgb(139, 105, 96);
-  font-size: 5vmin;
-  animation-name: myMove;
-  animation-duration: 4s;
-  position: relative;
-} */
+
 .designation{
   color: rgb(139, 105, 96);
-  font-size: 5vmin;
+  font-size: 4vmin;
   animation-name: bounce;
  animation-duration: 2s; /* or: Xms */
  animation-iteration-count: infinite;
@@ -166,13 +161,15 @@ height:60%;
  animation-timing-function: ease-in-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
  animation-fill-mode: forwards; /* or: backwards, both, none */
  animation-delay: 2s;
+   position: relative;
+
 }
 @keyframes bounce{
   0%, 100% {
-    font-size: 5vmin;
+    font-size: 4vmin;
   }
   50% {
-    font-size: 7vmin;
+    font-size: 6vmin;
   }
   /* from {
     transform: translateX(-20%);
@@ -196,7 +193,7 @@ height:60%;
   #home{
    height:100vh;
   background-image: url("images/fabric_plaid.png");
-  padding-top: 60%;
+  padding-top: 20%;
   color:black;
 }
 }
