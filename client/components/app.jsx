@@ -38,7 +38,9 @@ class App extends React.Component {
         <div id="home">
           <div className="">
             <p className="displayName">Vandana Khaparde</p>
-            <p>Full Stack Web Developer</p>
+            {/* <marquee behavior="alternate" direction="right"> */}
+            <p className="designation">Full Stack Web Developer</p>
+            {/* </marquee> */}
           </div>
         </div>
         <div id="about">

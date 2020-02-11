@@ -24,7 +24,8 @@ body{
 }
 
 .displayName{
-  font-size: 10vmin;
+  font-size: 12vmin;
+  text-shadow: 4px 6px 4px rgba(165, 130, 130, 0.25);
 }
 #about{
   padding-top:5%;
@@ -148,6 +149,46 @@ height:60%;
 .allLinks:hover , .appLinks:hover{
   background-color:#f5aeae;
 }
+/* .designation{
+  color: rgb(139, 105, 96);
+  font-size: 5vmin;
+  animation-name: myMove;
+  animation-duration: 4s;
+  position: relative;
+} */
+.designation{
+  color: rgb(139, 105, 96);
+  font-size: 5vmin;
+  animation-name: bounce;
+ animation-duration: 2s; /* or: Xms */
+ animation-iteration-count: infinite;
+  animation-direction: alternate;
+ animation-timing-function: ease-in-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+ animation-fill-mode: forwards; /* or: backwards, both, none */
+ animation-delay: 2s;
+}
+@keyframes bounce{
+  0%, 100% {
+    font-size: 5vmin;
+  }
+  50% {
+    font-size: 7vmin;
+  }
+  /* from {
+    transform: translateX(-20%);
+  }
+
+  to {
+    transform: translateX(30%);
+  } */
+}
+/* @keyframes myMove {
+  0%   {color:red; left:0px; top:0px;}
+  25%  {color:yellow; left:20%; top:0%;}
+  50%  {color:blue; left:20%; top:20%;}
+  75%  {color:green; right:40%; top:20%;}
+  100% {color:red; left:0px; top:0px;}
+} */
 @media only screen and (min-width : 480px) and (max-width : 765px) {
   body{
     overflow-x: hidden;
