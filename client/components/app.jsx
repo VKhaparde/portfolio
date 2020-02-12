@@ -266,7 +266,7 @@ class App extends React.Component {
                 </div>
               </div>
               <div className="col-md-3 col-sm-4 col-6">
-                <div className="card bg-light text-dark m-2" >
+                <div className="card bg-light text-dark m-1" >
                   <i className="fab fa-npm skillsImg p-3 text-info"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">node</h6>
