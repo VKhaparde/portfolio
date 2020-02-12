@@ -3,6 +3,7 @@ body{
   /* font-size: 1.25rem; */
   color:white;
   overflow-x: hidden;
+  background-color: grey;
 }
 
 .description{
@@ -133,10 +134,10 @@ width:60%;
 height:60%;
 }
 #contact{
-  padding-top: 8%;
+  padding-top: 6%;
   background-image: url("images/fabric_plaid.png");
   /* height:800px; */
-  padding-bottom: 8%;
+  padding-bottom: 6%;
 }
 .email{
   color:black;
