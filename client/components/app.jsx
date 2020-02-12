@@ -99,7 +99,7 @@ class App extends React.Component {
                   <p className="card-text">
                     Ninja Match is a memory match game.User gets 16 attempts to match the ninja and win the game.
                   </p>
-                  <p>Developed using javaScript, jQuery, HTML and CSS.</p>
+                  <p>Developed using JavaScript, jQuery, HTML and CSS.</p>
                 </div>
                 <div className="card-footer">
                   <div className="d-flex justify-content-center">
@@ -124,7 +124,7 @@ class App extends React.Component {
                   <p className="card-text">
                     Kitchen Shop is a full stack web application where user can shop for small kitchen appliances.
                   </p>
-                  <p>Developed using React.js,PHP,MySql, HTML and CSS.</p>
+                  <p>Developed using React.js, PHP, MySQL, HTML and CSS.</p>
                 </div>
                 <div className="card-footer">
                   <div className="d-flex justify-content-center">
@@ -149,7 +149,7 @@ class App extends React.Component {
                   <p className="card-text">
                     Local Sports is a full stack web application which allows the user to find pick up sports of their choice.
                   </p>
-                  <p>Developed using React.js, PHP, MySql, HTML and CSS.</p>
+                  <p>Developed using React.js, PHP, MySQL, HTML and CSS.</p>
                 </div>
                 <div className="card-footer">
                   <div className="d-flex justify-content-center">
@@ -172,7 +172,7 @@ class App extends React.Component {
             <div className="row">
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card tech bg-light text-dark m-2" >
-                  <i className="devicon-react-original colored skillsImg p-2"></i>
+                  <i className="devicon-react-original colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">React.js</h6>
                   </div>
@@ -180,7 +180,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card tech bg-light text-dark m-2" >
-                  <i className="devicon-javascript-plain colored skillsImg p-2"></i>
+                  <i className="devicon-javascript-plain colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">JavaScript</h6>
                   </div>
@@ -188,7 +188,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-jquery-plain-wordmark colored skillsImg p-2"></i>
+                  <i className="devicon-jquery-plain-wordmark colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">jQuery</h6>
                   </div>
@@ -196,7 +196,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-php-plain colored skillsImg p-2"></i>
+                  <i className="devicon-php-plain colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">PHP</h6>
                   </div>
@@ -204,7 +204,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-mysql-plain colored skillsImg p-2"></i>
+                  <i className="devicon-mysql-plain colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">MySQL</h6>
                   </div>
@@ -212,7 +212,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-bootstrap-plain colored skillsImg p-2"></i>
+                  <i className="devicon-bootstrap-plain colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">Bootstrap</h6>
                   </div>
@@ -220,7 +220,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-html5-plain colored skillsImg p-2"></i>
+                  <i className="devicon-html5-plain colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">HTML5</h6>
                   </div>
@@ -228,7 +228,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-css3-plain colored skillsImg p-2"></i>
+                  <i className="devicon-css3-plain colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">CSS3</h6>
                   </div>
@@ -243,7 +243,7 @@ class App extends React.Component {
             <div className="row">
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-github-plain skillsImg p-2"></i>
+                  <i className="devicon-github-plain skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">Github</h6>
                   </div>
@@ -251,7 +251,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-webpack-plain colored skillsImg p-2"></i>
+                  <i className="devicon-webpack-plain colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">webpack</h6>
                   </div>
@@ -259,7 +259,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-amazonwebservices-original colored skillsImg p-2"></i>
+                  <i className="devicon-amazonwebservices-original colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">AWS</h6>
                   </div>
@@ -267,7 +267,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="fab fa-npm skillsImg p-2 text-info"></i>
+                  <i className="fab fa-npm skillsImg p-3 text-info"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">node</h6>
                   </div>
@@ -275,7 +275,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-apache-line colored skillsImg p-2"></i>
+                  <i className="devicon-apache-line colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">Apache</h6>
                   </div>
@@ -283,7 +283,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-babel-plain colored skillsImg p-2"></i>
+                  <i className="devicon-babel-plain colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">Babel</h6>
                   </div>
@@ -291,7 +291,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-visualstudio-plain colored skillsImg p-2"></i>
+                  <i className="devicon-visualstudio-plain colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">VSCode</h6>
                   </div>
@@ -299,7 +299,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="fab fa-figma skillsImg text-danger p-2"></i>
+                  <i className="fab fa-figma skillsImg text-danger p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">Figma</h6>
                   </div>
@@ -307,7 +307,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-slack-plain colored skillsImg p-2"></i>
+                  <i className="devicon-slack-plain colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">Slack</h6>
                   </div>
@@ -315,7 +315,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-chrome-plain colored skillsImg p-2"></i>
+                  <i className="devicon-chrome-plain colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">Chrome DevTools</h6>
                   </div>
@@ -323,7 +323,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="fas fa-check-circle skillsImg p-2 text-primary"></i>
+                  <i className="fas fa-check-circle skillsImg p-3 text-primary"></i>
                   {/* <div className="p-3"><img src="images/meisterTask.png" alt="" className=" card-img-top meistertask" />
                   </div> */}
                   <div className="card-body d-flex justify-content-center">
@@ -333,7 +333,7 @@ class App extends React.Component {
               </div>
               <div className="col-md-3 col-sm-4 col-6">
                 <div className="card bg-light text-dark m-2" >
-                  <i className="devicon-docker-plain colored skillsImg p-2"></i>
+                  <i className="devicon-docker-plain colored skillsImg p-3"></i>
                   <div className="card-body d-flex justify-content-center">
                     <h6 className="card-text">Docker</h6>
                   </div>
