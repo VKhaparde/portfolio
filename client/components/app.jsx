@@ -58,7 +58,7 @@ class App extends React.Component {
                       <i className="fas fa-phone-square-alt px-2 py-2"></i></a>
                     <a className="m-2 allLinks" href="mailto:vandana.khaparde@gmail.com" target="_blank" rel="noopener noreferrer">
                       <i className="fas fa-envelope-square px-2 py-2"></i></a>
-                    <a className="m-2 allLinks" href="images/Vandana_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <a className="m-2 allLinks" href="images/Vandana_Resume_Oct2020.pdf" target="_blank" rel="noopener noreferrer">
                       <i className="fas fa-file px-2 py-2"></i></a>
                   </div>
                 </div>
@@ -360,7 +360,7 @@ class App extends React.Component {
                 <i className="fab fa-github px-2 py-2"></i></a>
               <a className="m-2 allLinks" href="https://linkedin.com/in/VKhaparde" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin px-2 py-2"></i></a>
-              <a className="m-2 allLinks" href="images/Vandana_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a className="m-2 allLinks" href="images/Vandana_Resume_Oct2020.pdf" target="_blank" rel="noopener noreferrer">
                 <i className="fas fa-file px-2 py-2"></i></a>
             </div>
           </div>
